@@ -1,2 +1,31 @@
 Site para download do GIt
 https://git-scm.com/download/win
+
+Anotações do desafio do venilton
+
+criar um novo repositório no site do github
+
+depois copiar o endereço do repositório para clonar para a máquina local
+
+Criamos uma pasta em nosso computador no local escolhido, depois abrimos o git bash dentro dessa pasta.
+
+depois usaremos o comando abaixo para clonar o repositório
+
+git clone
+serve para clonar o repositório que esta no servidor do github
+
+cd
+entra na pasta escolhida
+
+git add . ou git add -a
+considera adicionar o conteúdo ao controle de versão local, para adicionar no github precisamos fazer outro comando
+
+git commit -m “”
+a flag -m é para colocar uma mensagem com a descrição daquilo que está sendo adicionado para termos um histórico e controle das atualizações.
+o comentário do commit é muito importante
+
+git status
+nos mostra como está os nossos arquivos atualmente
+
+git push origin main
+vai enviar todos os commits que fazemos localmente para nuvem
